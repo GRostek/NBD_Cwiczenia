@@ -1,0 +1,270 @@
+﻿[
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "a": {
+"identity": 273,
+"start": 4,
+"end": 173,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt",
+          "Red Skull"
+        ]
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 179,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Markus",
+"born": 1970
+      }
+    },
+    "a": {
+"identity": 258,
+"start": 179,
+"end": 173,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1982
+      }
+    },
+    "a": {
+"identity": 255,
+"start": 176,
+"end": 173,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "James Buchanan 'Bucky' Barnes"
+        ]
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1946
+      }
+    },
+    "a": {
+"identity": 256,
+"start": 177,
+"end": 173,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Colonel Chester Phillips"
+        ]
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1982
+      }
+    },
+    "a": {
+"identity": 254,
+"start": 175,
+"end": 173,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Peggy Carter"
+        ]
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1981
+      }
+    },
+    "a": {
+"identity": 253,
+"start": 174,
+"end": 173,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Captain America",
+          "Steve Rogers"
+        ]
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Johnston",
+"born": 1950
+      }
+    },
+    "a": {
+"identity": 257,
+"start": 178,
+"end": 173,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 173,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+"released": 2011
+      }
+    },
+    "p": {
+"identity": 180,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen McFeely",
+"born": 1969
+      }
+    },
+    "a": {
+"identity": 259,
+"start": 180,
+"end": 173,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  }
+]
