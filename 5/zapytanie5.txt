@@ -1,0 +1,1 @@
+MATCH (m:Movie {title: 'The Matrix'})-[:ACTED_IN]-(p: Person)-[:ACTED_IN]-(m2:Movie) return p,m2

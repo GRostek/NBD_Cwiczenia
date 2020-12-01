@@ -1,0 +1,1 @@
+MATCH (p:Person)-[d:DIRECTED]-(m:Movie)-[a:ACTED_IN]-(p2:Person {name: 'Hugo Weaving'}) return p

@@ -1,0 +1,26 @@
+Zapytanie1:
+
+CREATE (CaptainAmericaFirstAvenger:Movie {title:'Captain America: The First Avenger', tagline:'Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.', released: 2011})
+CREATE (ChrisEvans:Person {name: 'Chris Evans', born:1981})
+CREATE (HayleyAtwell:Person {name: 'Hayley Atwell', born:1982})
+CREATE (SebastianStan:Person {name: 'Sebastian Stan', born:1982})
+CREATE (TommyLeeJones:Person {name: 'Tommy Lee Jones', born:1946})
+CREATE (JoeJohnston:Person {name: 'Joe Johnston', born:1950})
+CREATE (ChristopherMarkus: Person {name: 'Christopher Markus', born:1970})
+CREATE (StephenMcFeely:Person {name: 'Stephen McFeely', born:1969})
+CREATE
+(ChrisEvans)-[:ACTED_IN {roles:['Captain America','Steve Rogers']}]->(CaptainAmericaFirstAvenger),
+(HayleyAtwell)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmericaFirstAvenger),
+(SebastianStan)-[:ACTED_IN {roles:["James Buchanan 'Bucky' Barnes"]}]->(CaptainAmericaFirstAvenger),
+(TommyLeeJones)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(CaptainAmericaFirstAvenger),
+(JoeJohnston)-[:DIRECTED]->(CaptainAmericaFirstAvenger),
+(ChristopherMarkus)-[:WROTE]->(CaptainAmericaFirstAvenger),
+(StephenMcFeely)-[:WROTE]->(CaptainAmericaFirstAvenger)
+
+
+Zapytanie2:
+MATCH (p:Person { name: 'Hugo Weaving' }),(m:Movie { title: 'Captain America: The First Avenger' })
+MERGE (p)-[:ACTED_IN {roles: ['Johann Schmidt', 'Red Skull']}]->(m)
+
+Zapytanie3:
+MATCH (m:Movie{title:'Captain America: The First Avenger'})-[a]-(p:Person) return m,p,a
