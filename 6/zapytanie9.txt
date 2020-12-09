@@ -1,0 +1,4 @@
+match (ori: Airport)-[]-(f:Flight)-[]-(dest:Airport)
+with f.airline as airline, size(collect(distinct dest)) as dest_count
+return airline, dest_count
+order by dest_count desc
