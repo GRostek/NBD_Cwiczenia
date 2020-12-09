@@ -1,4 +1,0 @@
-match (ori: Airport)-[]-()-[]-(dest:Airport)
-with ori, size(collect(distinct dest)) as dest_count
-return ori, dest_count
-order by dest_count desc
