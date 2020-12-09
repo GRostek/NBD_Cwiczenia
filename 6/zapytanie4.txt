@@ -1,0 +1,1 @@
+match (a:Airport)<-[o:ORIGIN]-(f:Flight) return a, count(f) as rozpoczynajace_sie_loty order by rozpoczynajace_sie_loty desc

@@ -1,0 +1,6 @@
+//ograniczone do 3 ze względu na to jak wolno wykonuje się zapytanie
+
+match p = (a1:Airport{name:'LAX'})-[*..3]-(a2:Airport{name:'DAY'}) 
+with p, relationships(p) as re 
+return p, reduce(total = 0, r in re | total+r.price) as total_price 
+order by total_price

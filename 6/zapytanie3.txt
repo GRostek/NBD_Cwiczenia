@@ -1,0 +1,21 @@
+//wszystkie trasy z Darjeeling do Sandakphu wg dystansu
+
+MATCH path = (t:town {name: 'Darjeeling'})-[*]->(p:peak {name: 'Sandakphu'}) 
+with path, reduce(total_dist = 0, r in relationships(path) | total_dist+r.distance) as total_distance
+return path, total_distance
+order by total_distance
+
+
+// Miejsca do których można dostać się z Darjeeling rowerem latem (Darjeeling nie ma żadnego połączenia rowerem więc nic nie jest zwracane)
+
+MATCH path = (t:town {name: 'Darjeeling'})-[tw:twowheeler *]->(p:peak) 
+where all(r in relationships(path) where r.summer = 'true')
+return path
+UNION
+MATCH path = (t:town {name: 'Darjeeling'})-[tw:twowheeler *]->(t:town) 
+where all(r in relationships(path) where r.summer = 'true')
+return path
+UNION
+MATCH path = (t:town {name: 'Darjeeling'})-[tw:twowheeler *]->(v:village) 
+where all(r in relationships(path) where r.summer = 'true')
+return path

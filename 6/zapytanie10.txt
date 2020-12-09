@@ -1,0 +1,6 @@
+match p = (a1:Airport)-[*2..2]-(a2:Airport)
+where a1.name <> a2.name
+with p, relationships(p) as re 
+return p, reduce(total = 0, r in re | total+r.price) as total_price 
+order by total_price
+limit 1

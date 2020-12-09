@@ -1,0 +1,1 @@
+MATCH path = ShortestPath((t:town {name: 'Darjeeling'})-[*]->(p:peak {name: 'Sandakphu'})) return path

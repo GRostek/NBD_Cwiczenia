@@ -1,0 +1,11 @@
+match (origin:Airport)<-[:ORIGIN]-(f:Flight)-[]->(dest: Airport),
+		(f)-[]-(t:Ticket {class: "economy"})
+MERGE (origin)-[:ECONOMY {price: t.price}]->(dest)
+
+match (origin:Airport)<-[:ORIGIN]-(f:Flight)-[]->(dest: Airport),
+		(f)-[]-(t:Ticket {class: "firstClass"})
+MERGE (origin)-[:FIRST_CLASS {price: t.price}]->(dest)
+
+match (origin:Airport)<-[:ORIGIN]-(f:Flight)-[]->(dest: Airport),
+		(f)-[]-(t:Ticket {class: "business"})
+MERGE (origin)-[:BUSINESS {price: t.price}]->(dest)

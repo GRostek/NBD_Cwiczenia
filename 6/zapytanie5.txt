@@ -1,0 +1,7 @@
+//ograniczyłem się do 2 połączeń ze względu na bardzo wolno działające rysowanie się grafów, przy 3 praktycznie nie dało się tego wyeksportować
+
+match p = (orig:Airport {name: 'LAX'})-[*1..2]->(des:Airport)
+where des.name <> 'LAX' 
+with p, reduce(total = 0, r in relationships(p) | total+r.price) as total_p 
+where total_p < 3000 
+return p, total_p
