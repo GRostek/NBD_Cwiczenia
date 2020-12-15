@@ -1,0 +1,14 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Matrix", "year": 1999, "director": "The Wachowski Brothers", "writer": "The Wachowski Brothers"}' http://localhost:8098/buckets/s15227/keys/Matrix
+
+2.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Star Wars: Episode IV - A New Hope", "year": 1977, "director": "George Lucas", "writer": "George Lucas"}' http://localhost:8098/buckets/s15227/keys/StarWarsIV
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Raiders of the Lost Ark", "year": 1981, "director": "Steven Spielberg", "writer": "George Lucas"}' http://localhost:8098/buckets/s15227/keys/IndianaJones1
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Back to the Future", "year": 1985, "director": "Robert Zemeckis", "writer": "Robert Zemeckis"}' http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Terminator 2: Judgment Day", "year": 1991, "director": "James Cameron", "writer": "James Cameron"}' http://localhost:8098/buckets/s15227/keys/Terminator2

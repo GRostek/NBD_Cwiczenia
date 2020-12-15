@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl/i3Z3AwKAumMGUyJjHyiCa5HuTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15227>; rel="up"
+Last-Modified: Tue, 15 Dec 2020 16:36:37 GMT
+ETag: "4i1sDtDMhAFX3vhipuiMEv"
+Date: Tue, 15 Dec 2020 16:38:32 GMT
+Content-Type: application/json
+Content-Length: 108
+
+{"movie": "Raiders of the Lost Ark", "year": 1981, "director": "Steven Spielberg", "writer": "George Lucas"}
