@@ -1,0 +1,37 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Matrix", "year": 1999, "director": "The Wachowski Brothers", "writer": "The Wachowski Brothers"}' http://localhost:8098/buckets/s15227/keys/Matrix
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Star Wars: Episode IV - A New Hope", "year": 1977, "director": "George Lucas", "writer": "George Lucas"}' http://localhost:8098/buckets/s15227/keys/StarWarsIV
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Raiders of the Lost Ark", "year": 1981, "director": "Steven Spielberg", "writer": "George Lucas"}' http://localhost:8098/buckets/s15227/keys/IndianaJones1
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Back to the Future", "year": 1985, "director": "Robert Zemeckis", "writer": "Robert Zemeckis"}' http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Terminator 2: Judgment Day", "year": 1991, "director": "James Cameron", "writer": "James Cameron"}' http://localhost:8098/buckets/s15227/keys/Terminator2
+
+2.
+curl -i http://localhost:8098/buckets/s15227/keys/IndianaJones1
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Back to the Future", "year": 1985, "director": "Robert Zemeckis", "writer": "Robert Zemeckis", "budget": 19000000}' http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Back to the Future", "year": 1985, "director": "Robert Zemeckis", "writer": "Robert Zemeckis"}' http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"movie": "Back to the Future Part II", "year": 1989, "director": "Robert Zemeckis", "writer": "Robert Zemeckis"}' http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+7.
+curl -i http://localhost:8098/buckets/s15227/keys/BackToTheFuture
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" -d '{"movie": "The Lord of the Rings: The Fellowship of the Ring"}' http://localhost:8098/buckets/s15227/keys
+
+9.
+curl -i http://localhost:8098/buckets/s15227/keys/EkoLIo992yIoNSV0oqyr3SushI3
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s15227/keys/EkoLIo992yIoNSV0oqyr3SushI3
