@@ -1,0 +1,6 @@
+Utworzenie wartosci, pobranie jej i wyswietlenie:
+{u'surname': u'Kowalski', u'name': u'Jan'}
+Modyfikacja wartosci, pobranie jej i wyswietlenie:
+{u'surname': u'Kowalski', u'name': u'Janina'}
+Usuniecie wartosci, proba pobrania i wyswietlenia:
+None
