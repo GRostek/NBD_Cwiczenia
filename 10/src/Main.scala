@@ -23,9 +23,24 @@ object Main {
       println(buffered.next())
     }
 
+    oddzielZadania("Zadanie 2:")
+
+
+
+    val no = No()
+    val yes = Yes(List(1,2,3))
+    println(no.map(mapFun))
+    //println(no.flatMap(flatMapFun()))
+    println(yes.map(flatMapFun))
+    println(yes.flatMap(flatMapFun))
+
 
 
   }
+
+  def mapFun(value: List[Int]): List[Int] = value.map(f => f+10)
+  def flatMapFun(value: List[Int]): Maybe[List[Int]] = Yes(value.map(f => f+10))
+
 
 
   def oddzielZadania(nr: String): Unit={
