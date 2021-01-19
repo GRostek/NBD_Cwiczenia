@@ -1,0 +1,849 @@
+MongoDB shell version v4.4.1
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("9e68545d-bd24-4775-ba57-0b2b4b68d187") }
+MongoDB server version: 4.4.1
+{
+	"_batch" : [
+		{
+			"_id" : "Comoros",
+			"minimal" : 19.73678859401531,
+			"maximal" : 33.86465840113391,
+			"average" : 25.43904303433795
+		},
+		{
+			"_id" : "Cambodia",
+			"minimal" : 17.556863214141693,
+			"maximal" : 33.32850035102713,
+			"average" : 25.98009869778392
+		},
+		{
+			"_id" : "Papua New Guinea",
+			"minimal" : 19.859417039821555,
+			"maximal" : 26.903589650913545,
+			"average" : 24.213264087002067
+		},
+		{
+			"_id" : "Jamaica",
+			"minimal" : 22.275369146558596,
+			"maximal" : 28.975717835121532,
+			"average" : 24.93149892025034
+		},
+		{
+			"_id" : "Thailand",
+			"minimal" : 18.181717342474403,
+			"maximal" : 35.590560182726435,
+			"average" : 25.625415700663876
+		},
+		{
+			"_id" : "Gambia",
+			"minimal" : 17.84046677774891,
+			"maximal" : 29.041518380755527,
+			"average" : 23.773405222453228
+		},
+		{
+			"_id" : "Norway",
+			"minimal" : 19.602504292612466,
+			"maximal" : 35.1671816861818,
+			"average" : 27.012053304746868
+		},
+		{
+			"_id" : "Suriname",
+			"minimal" : 30.38931494743512,
+			"maximal" : 30.38931494743512,
+			"average" : 30.38931494743512
+		},
+		{
+			"_id" : "New Caledonia",
+			"minimal" : 24.07180767559938,
+			"maximal" : 26.939955901091704,
+			"average" : 25.50588178834554
+		},
+		{
+			"_id" : "Yemen",
+			"minimal" : 20.910656892847584,
+			"maximal" : 34.85489627858924,
+			"average" : 25.520741902141804
+		},
+		{
+			"_id" : "Algeria",
+			"minimal" : 28.594463853802747,
+			"maximal" : 28.594463853802747,
+			"average" : 28.594463853802747
+		},
+		{
+			"_id" : "Sint Maarten",
+			"minimal" : 22.218504166585912,
+			"maximal" : 24.103065474104024,
+			"average" : 23.16078482034497
+		},
+		{
+			"_id" : "Kosovo",
+			"minimal" : 19.254012570630334,
+			"maximal" : 29.624326587170813,
+			"average" : 24.13095183240382
+		},
+		{
+			"_id" : "Nigeria",
+			"minimal" : 16.860335772659226,
+			"maximal" : 36.16277887197436,
+			"average" : 24.802388203011215
+		},
+		{
+			"_id" : "Turkey",
+			"minimal" : 22.712340024306464,
+			"maximal" : 23.218818230827427,
+			"average" : 22.991591061963124
+		},
+		{
+			"_id" : "Azerbaijan",
+			"minimal" : 18.770569815679924,
+			"maximal" : 36.93348217200575,
+			"average" : 25.953521178074688
+		},
+		{
+			"_id" : "Vietnam",
+			"minimal" : 16.588074623788906,
+			"maximal" : 32.97072894443237,
+			"average" : 24.90100447949815
+		},
+		{
+			"_id" : "Burkina Faso",
+			"minimal" : 19.874924416260065,
+			"maximal" : 39.84736448162324,
+			"average" : 27.581473331497783
+		},
+		{
+			"_id" : "South Korea",
+			"minimal" : 17.724971165813702,
+			"maximal" : 31.35384445026281,
+			"average" : 24.516246096774278
+		},
+		{
+			"_id" : "French Polynesia",
+			"minimal" : 20.299688460981415,
+			"maximal" : 28.539227949185673,
+			"average" : 25.351408860541465
+		},
+		{
+			"_id" : "Brazil",
+			"minimal" : 17.455901881799917,
+			"maximal" : 40.629137270681994,
+			"average" : 25.553839828790494
+		},
+		{
+			"_id" : "United Arab Emirates",
+			"minimal" : 23.390978608691807,
+			"maximal" : 29.753071854779463,
+			"average" : 26.572025231735637
+		},
+		{
+			"_id" : "Colombia",
+			"minimal" : 17.766168088813238,
+			"maximal" : 35.4010351305359,
+			"average" : 25.68656089567334
+		},
+		{
+			"_id" : "Lebanon",
+			"minimal" : 22.696782965005376,
+			"maximal" : 32.444431072334524,
+			"average" : 27.50900155800487
+		},
+		{
+			"_id" : "Belgium",
+			"minimal" : 20.047926099827215,
+			"maximal" : 28.997682388567068,
+			"average" : 26.140778626016402
+		},
+		{
+			"_id" : "New Zealand",
+			"minimal" : 20.015037796508505,
+			"maximal" : 33.708938690778766,
+			"average" : 25.359794144919384
+		},
+		{
+			"_id" : "Saudi Arabia",
+			"minimal" : 19.971991294865283,
+			"maximal" : 32.095388696280175,
+			"average" : 25.676484975670657
+		},
+		{
+			"_id" : "Ecuador",
+			"minimal" : 19.837789435759387,
+			"maximal" : 31.540757595400457,
+			"average" : 25.66255028757021
+		},
+		{
+			"_id" : "Western Sahara",
+			"minimal" : 22.75109226188259,
+			"maximal" : 22.75109226188259,
+			"average" : 22.75109226188259
+		},
+		{
+			"_id" : "Serbia",
+			"minimal" : 18.75880119586755,
+			"maximal" : 43.54832804682019,
+			"average" : 25.670277460078474
+		},
+		{
+			"_id" : "Malaysia",
+			"minimal" : 18.54461856797744,
+			"maximal" : 36.53428355033911,
+			"average" : 25.61238899059476
+		},
+		{
+			"_id" : "Cameroon",
+			"minimal" : 19.681646953380184,
+			"maximal" : 33.171539196923106,
+			"average" : 24.6366953354223
+		},
+		{
+			"_id" : "Trinidad and Tobago",
+			"minimal" : 22.714055076873127,
+			"maximal" : 31.519844903401175,
+			"average" : 27.598645704582985
+		},
+		{
+			"_id" : "Iceland",
+			"minimal" : 22.674667319714626,
+			"maximal" : 30.14738226195103,
+			"average" : 25.59095093253576
+		},
+		{
+			"_id" : "Eritrea",
+			"minimal" : 24.502688749443237,
+			"maximal" : 28.706187680256324,
+			"average" : 26.18666676758779
+		},
+		{
+			"_id" : "Venezuela",
+			"minimal" : 18.86211751235061,
+			"maximal" : 31.135855490289444,
+			"average" : 24.75845769901119
+		},
+		{
+			"_id" : "Seychelles",
+			"minimal" : 25.710551755136727,
+			"maximal" : 25.710551755136727,
+			"average" : 25.710551755136727
+		},
+		{
+			"_id" : "Dominica",
+			"minimal" : 26.42147612552151,
+			"maximal" : 26.42147612552151,
+			"average" : 26.42147612552151
+		},
+		{
+			"_id" : "Iraq",
+			"minimal" : 17.811382149213077,
+			"maximal" : 33.23798843565602,
+			"average" : 24.097732336776872
+		},
+		{
+			"_id" : "Peru",
+			"minimal" : 17.806002361986923,
+			"maximal" : 36.36334544992972,
+			"average" : 25.221916507389217
+		},
+		{
+			"_id" : "Pakistan",
+			"minimal" : 17.507302336811122,
+			"maximal" : 35.54144749573527,
+			"average" : 25.02816349688192
+		},
+		{
+			"_id" : "Bulgaria",
+			"minimal" : 18.415763633181026,
+			"maximal" : 32.5985033633058,
+			"average" : 24.309744266991725
+		},
+		{
+			"_id" : "Guinea",
+			"minimal" : 20.460478773371793,
+			"maximal" : 34.462128538412365,
+			"average" : 27.9142215967982
+		},
+		{
+			"_id" : "Syria",
+			"minimal" : 18.668899303500158,
+			"maximal" : 36.4017489356862,
+			"average" : 25.379241567006584
+		},
+		{
+			"_id" : "Montenegro",
+			"minimal" : 20.73659089443422,
+			"maximal" : 29.526909667433987,
+			"average" : 24.00617071684226
+		},
+		{
+			"_id" : "Malta",
+			"minimal" : 22.120384249306703,
+			"maximal" : 36.01978908588236,
+			"average" : 26.169580448971242
+		},
+		{
+			"_id" : "Philippines",
+			"minimal" : 15.783361633607486,
+			"maximal" : 40.14921877820496,
+			"average" : 25.126490662700355
+		},
+		{
+			"_id" : "Namibia",
+			"minimal" : 19.26580170883617,
+			"maximal" : 32.28039749878038,
+			"average" : 25.4913328121885
+		},
+		{
+			"_id" : "Reunion",
+			"minimal" : 18.72890348175829,
+			"maximal" : 39.16506059010436,
+			"average" : 26.421775697845288
+		},
+		{
+			"_id" : "Mongolia",
+			"minimal" : 19.12334810050309,
+			"maximal" : 31.47600262984878,
+			"average" : 23.94448855430014
+		},
+		{
+			"_id" : "South Africa",
+			"minimal" : 17.33504330126283,
+			"maximal" : 40.54150514193364,
+			"average" : 25.864994700042747
+		},
+		{
+			"_id" : "Cuba",
+			"minimal" : 18.489462979361967,
+			"maximal" : 35.42409829567975,
+			"average" : 26.37919135685751
+		},
+		{
+			"_id" : "Mauritania",
+			"minimal" : 20.427479249813242,
+			"maximal" : 22.6996212151413,
+			"average" : 21.56355023247727
+		},
+		{
+			"_id" : "Turkmenistan",
+			"minimal" : 21.536036875349122,
+			"maximal" : 30.263793694794966,
+			"average" : 26.074693406233422
+		},
+		{
+			"_id" : "Oman",
+			"minimal" : 23.599509054084226,
+			"maximal" : 27.084022161790852,
+			"average" : 25.688221135833004
+		},
+		{
+			"_id" : "Democratic Republic of the Congo",
+			"minimal" : 18.27553140160477,
+			"maximal" : 33.515401571866754,
+			"average" : 26.530271205495303
+		},
+		{
+			"_id" : "El Salvador",
+			"minimal" : 21.92582816065902,
+			"maximal" : 33.56299576484531,
+			"average" : 25.348361001442797
+		},
+		{
+			"_id" : "Monaco",
+			"minimal" : 28.9279758282314,
+			"maximal" : 28.9279758282314,
+			"average" : 28.9279758282314
+		},
+		{
+			"_id" : "Nepal",
+			"minimal" : 19.748973244733463,
+			"maximal" : 31.078489717648623,
+			"average" : 26.43434938647296
+		},
+		{
+			"_id" : "Maldives",
+			"minimal" : 23.654619429922963,
+			"maximal" : 28.25830239759801,
+			"average" : 25.389870790829356
+		},
+		{
+			"_id" : "Estonia",
+			"minimal" : 18.560878620789442,
+			"maximal" : 28.68360155605993,
+			"average" : 25.542136169318567
+		},
+		{
+			"_id" : "Slovakia",
+			"minimal" : 21.338818810983465,
+			"maximal" : 21.338818810983465,
+			"average" : 21.338818810983465
+		},
+		{
+			"_id" : "Georgia",
+			"minimal" : 19.907789367690288,
+			"maximal" : 27.6963070482808,
+			"average" : 24.320295824417713
+		},
+		{
+			"_id" : "Kenya",
+			"minimal" : 21.963094173998595,
+			"maximal" : 32.415973001368904,
+			"average" : 25.84497767923738
+		},
+		{
+			"_id" : "Wallis and Futuna",
+			"minimal" : 24.33390757821489,
+			"maximal" : 28.43117093855067,
+			"average" : 26.38253925838278
+		},
+		{
+			"_id" : "Australia",
+			"minimal" : 20.65310909810227,
+			"maximal" : 29.824555993432554,
+			"average" : 25.195047158310075
+		},
+		{
+			"_id" : "Barbados",
+			"minimal" : 21.343242644513325,
+			"maximal" : 21.343242644513325,
+			"average" : 21.343242644513325
+		},
+		{
+			"_id" : "Zimbabwe",
+			"minimal" : 22.609825375832813,
+			"maximal" : 35.12027773402992,
+			"average" : 26.97591880240733
+		},
+		{
+			"_id" : "Panama",
+			"minimal" : 20.497034879989776,
+			"maximal" : 33.204916913317156,
+			"average" : 24.992264629881035
+		},
+		{
+			"_id" : "Paraguay",
+			"minimal" : 21.194188847738655,
+			"maximal" : 32.97774797284501,
+			"average" : 25.118908017345476
+		},
+		{
+			"_id" : "Czech Republic",
+			"minimal" : 15.668304358780548,
+			"maximal" : 33.15190133598319,
+			"average" : 25.175503361045358
+		},
+		{
+			"_id" : "Sri Lanka",
+			"minimal" : 20.744421581687575,
+			"maximal" : 28.60361966419167,
+			"average" : 24.576523965721474
+		},
+		{
+			"_id" : "Uruguay",
+			"minimal" : 20.368800960879323,
+			"maximal" : 34.361426322308105,
+			"average" : 25.32476196226835
+		},
+		{
+			"_id" : "Togo",
+			"minimal" : 21.483089176370907,
+			"maximal" : 24.559999693631624,
+			"average" : 23.268539811569163
+		},
+		{
+			"_id" : "Costa Rica",
+			"minimal" : 20.494010942211922,
+			"maximal" : 28.898569613792333,
+			"average" : 24.650437337200202
+		},
+		{
+			"_id" : "Slovenia",
+			"minimal" : 17.370385779694157,
+			"maximal" : 32.66109875399449,
+			"average" : 25.041680484394
+		},
+		{
+			"_id" : "Sierra Leone",
+			"minimal" : 19.49887642053163,
+			"maximal" : 33.448269454681686,
+			"average" : 25.11304222749876
+		},
+		{
+			"_id" : "Niger",
+			"minimal" : 20.07204296186382,
+			"maximal" : 30.22683231486928,
+			"average" : 26.384679570852143
+		},
+		{
+			"_id" : "Angola",
+			"minimal" : 18.362400744093293,
+			"maximal" : 31.67480491405164,
+			"average" : 24.17967562103932
+		},
+		{
+			"_id" : "Tuvalu",
+			"minimal" : 22.60418435695907,
+			"maximal" : 22.60418435695907,
+			"average" : 22.60418435695907
+		},
+		{
+			"_id" : "Madagascar",
+			"minimal" : 17.556666479697988,
+			"maximal" : 30.189583737327382,
+			"average" : 24.78315354739493
+		},
+		{
+			"_id" : "Brunei",
+			"minimal" : 25.02697259105827,
+			"maximal" : 25.02697259105827,
+			"average" : 25.02697259105827
+		},
+		{
+			"_id" : "Rwanda",
+			"minimal" : 22.834957662274157,
+			"maximal" : 27.60395919371098,
+			"average" : 25.960475188853895
+		},
+		{
+			"_id" : "Honduras",
+			"minimal" : 18.483295476526518,
+			"maximal" : 35.22066445474855,
+			"average" : 25.48034274333803
+		},
+		{
+			"_id" : "Austria",
+			"minimal" : 23.01532709975852,
+			"maximal" : 37.259975846114166,
+			"average" : 27.93883177972952
+		},
+		{
+			"_id" : "Armenia",
+			"minimal" : 19.17386933002285,
+			"maximal" : 31.668511004463014,
+			"average" : 24.941789322543038
+		},
+		{
+			"_id" : "Dominican Republic",
+			"minimal" : 18.01287119956941,
+			"maximal" : 30.32549350733766,
+			"average" : 23.94786171912194
+		},
+		{
+			"_id" : "Denmark",
+			"minimal" : 21.08473436367003,
+			"maximal" : 27.824860598421296,
+			"average" : 23.570666794473013
+		},
+		{
+			"_id" : "United Kingdom",
+			"minimal" : 19.427928671881645,
+			"maximal" : 31.903158982438534,
+			"average" : 23.785736038981
+		},
+		{
+			"_id" : "Mali",
+			"minimal" : 19.246685556164678,
+			"maximal" : 31.67016743066081,
+			"average" : 24.919410302759925
+		},
+		{
+			"_id" : "Zambia",
+			"minimal" : 20.338719513529025,
+			"maximal" : 31.44864603504859,
+			"average" : 25.857875377943596
+		},
+		{
+			"_id" : "Chile",
+			"minimal" : 16.9512916270108,
+			"maximal" : 29.79885840825515,
+			"average" : 24.869680560672286
+		},
+		{
+			"_id" : "Samoa",
+			"minimal" : 20.54488200453268,
+			"maximal" : 20.54488200453268,
+			"average" : 20.54488200453268
+		},
+		{
+			"_id" : "Egypt",
+			"minimal" : 17.650429873238075,
+			"maximal" : 32.033722500448945,
+			"average" : 24.279172249085583
+		},
+		{
+			"_id" : "Guinea-Bissau",
+			"minimal" : 23.28512818429207,
+			"maximal" : 26.54403588086242,
+			"average" : 24.42720412339052
+		},
+		{
+			"_id" : "Kyrgyzstan",
+			"minimal" : 16.846474930530864,
+			"maximal" : 34.05576978971841,
+			"average" : 23.79456317353873
+		},
+		{
+			"_id" : "Taiwan",
+			"minimal" : 20.359929764833222,
+			"maximal" : 31.171391695878288,
+			"average" : 26.610153474174844
+		},
+		{
+			"_id" : "Ukraine",
+			"minimal" : 16.525546999186044,
+			"maximal" : 36.84222756372365,
+			"average" : 25.087610733459513
+		},
+		{
+			"_id" : "Bahamas",
+			"minimal" : 22.243665360172294,
+			"maximal" : 26.596494551398333,
+			"average" : 24.994816322414778
+		},
+		{
+			"_id" : "United States",
+			"minimal" : 18.501182435921706,
+			"maximal" : 36.69514941999169,
+			"average" : 25.714043952231734
+		},
+		{
+			"_id" : "Cyprus",
+			"minimal" : 22.195141736787935,
+			"maximal" : 29.825489728395752,
+			"average" : 25.19379219201182
+		}
+	],
+	"_useReadCommands" : true,
+	"_cursorid" : NumberLong("7285889287249738398"),
+	"_batchSize" : undefined,
+	"_maxAwaitTimeMS" : undefined,
+	"_txnNumber" : undefined,
+	"_ns" : "nbd.people",
+	"_db" : nbd,
+	"_collName" : "people",
+	"_cursorHandle" : {
+		
+	},
+	"isClosed" : function() {
+    if (this._useReadCommands) {
+        return bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) === 0;
+    }
+    return this._cursor.isClosed();
+},
+	"isExhausted" : function() {
+    return this.isClosed() && this.objsLeftInBatch() === 0;
+},
+	"close" : function() {
+    if (!this._useReadCommands) {
+        this._cursor.close();
+    } else if (bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) !== 0) {
+        var killCursorCmd = {
+            killCursors: this._collName,
+            cursors: [this._cursorid],
+        };
+        var cmdRes = this._db.runCommand(killCursorCmd);
+        if (cmdRes.ok != 1) {
+            throw _getErrorWithCode(cmdRes, "killCursors command failed: " + tojson(cmdRes));
+        }
+
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong(0);
+    }
+},
+	"_updatePostBatchResumeToken" : function(cursorObj) {
+    if (cursorObj.postBatchResumeToken) {
+        this._postBatchResumeToken = cursorObj.postBatchResumeToken;
+        if ((cursorObj.firstBatch || cursorObj.nextBatch).length === 0) {
+            this._resumeToken = this._postBatchResumeToken;
+        }
+        this._isChangeStream = true;
+    }
+},
+	"_runGetMoreCommand" : function() {
+    // Construct the getMore command.
+    var getMoreCmd = {getMore: this._cursorid, collection: this._collName};
+
+    if (this._batchSize) {
+        getMoreCmd["batchSize"] = this._batchSize;
+    }
+
+    // maxAwaitTimeMS is only supported when using read commands.
+    if (this._maxAwaitTimeMS) {
+        getMoreCmd.maxTimeMS = this._maxAwaitTimeMS;
+    }
+
+    if (this._txnNumber) {
+        getMoreCmd.txnNumber = NumberLong(this._txnNumber);
+        getMoreCmd.autocommit = false;
+    }
+
+    // Deliver the getMore command, and check for errors in the response.
+    var cmdRes = this._db.runCommand(getMoreCmd);
+    assert.commandWorked(cmdRes, () => "getMore command failed: " + tojson(cmdRes));
+
+    if (this._ns !== cmdRes.cursor.ns) {
+        throw Error("unexpected collection in getMore response: " + this._ns +
+                    " != " + cmdRes.cursor.ns);
+    }
+
+    if (!cmdRes.cursor.id.compare(NumberLong("0"))) {
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong("0");
+    } else if (this._cursorid.compare(cmdRes.cursor.id)) {
+        throw Error("unexpected cursor id: " + this._cursorid.toString() +
+                    " != " + cmdRes.cursor.id.toString());
+    }
+
+    // If the command result represents a change stream cursor, update our postBatchResumeToken.
+    this._updatePostBatchResumeToken(cmdRes.cursor);
+
+    // Successfully retrieved the next batch.
+    this._batch = cmdRes.cursor.nextBatch.reverse();
+},
+	"_hasNextUsingCommands" : function() {
+    assert(this._useReadCommands);
+
+    if (!this._batch.length) {
+        if (!this._cursorid.compare(NumberLong("0"))) {
+            return false;
+        }
+
+        this._runGetMoreCommand();
+    }
+
+    return this._batch.length > 0;
+},
+	"hasNext" : function() {
+    if (this._useReadCommands) {
+        return this._hasNextUsingCommands();
+    }
+
+    return this._batch.length || this._cursor.hasNext();
+},
+	"next" : function() {
+    if (this._batch.length) {
+        // Pop the next result off the batch.
+        const nextDoc = this._batch.pop();
+        if (this._isChangeStream) {
+            // If this is the last result in the batch, the postBatchResumeToken becomes the current
+            // resume token for the cursor. Otherwise, the resume token is the _id of 'nextDoc'.
+            this._resumeToken = (this._batch.length ? nextDoc._id : this._postBatchResumeToken);
+        }
+        return nextDoc;
+    } else if (this._useReadCommands) {
+        // Have to call hasNext() here, as this is where we may issue a getMore in order to retrieve
+        // the next batch of results.
+        if (!this.hasNext())
+            throw Error("error hasNext: false");
+        return this._batch.pop();
+    } else {
+        if (!this._cursor.hasNext())
+            throw Error("error hasNext: false");
+
+        var ret = this._cursor.next();
+        if (ret.$err)
+            throw _getErrorWithCode(ret, "error: " + tojson(ret));
+        return ret;
+    }
+},
+	"objsLeftInBatch" : function() {
+    if (this._useReadCommands) {
+        return this._batch.length;
+    } else if (this._batch.length) {
+        return this._batch.length;
+    } else {
+        return this._cursor.objsLeftInBatch();
+    }
+},
+	"getId" : function() {
+    return this._cursorid;
+},
+	"getResumeToken" : function() {
+    // Return the most recent recorded resume token, if such a token exists.
+    return this._resumeToken;
+},
+	"help" : function() {
+    // This is the same as the "Cursor Methods" section of DBQuery.help().
+    print("\nCursor methods");
+    print("\t.toArray() - iterates through docs and returns an array of the results");
+    print("\t.forEach( func )");
+    print("\t.map( func )");
+    print("\t.hasNext()");
+    print("\t.next()");
+    print(
+        "\t.objsLeftInBatch() - returns count of docs left in current batch (when exhausted, a new getMore will be issued)");
+    print("\t.itcount() - iterates through documents and counts them");
+    print(
+        "\t.getResumeToken() - for a change stream cursor, obtains the most recent valid resume token, if it exists.");
+    print("\t.pretty() - pretty print each document, possibly over multiple lines");
+    print("\t.close()");
+},
+	"toArray" : function() {
+    if (this._arr)
+        return this._arr;
+
+    var a = [];
+    while (this.hasNext())
+        a.push(this.next());
+    this._arr = a;
+    return a;
+},
+	"forEach" : function(func) {
+    while (this.hasNext())
+        func(this.next());
+},
+	"map" : function(func) {
+    var a = [];
+    while (this.hasNext())
+        a.push(func(this.next()));
+    return a;
+},
+	"itcount" : function() {
+    var num = 0;
+
+    // Track how many bytes we've used this cursor to iterate iterated.  This function can be called
+    // with some very large cursors.  SpiderMonkey appears happy to allow these objects to
+    // accumulate, so regular gc() avoids an overly large memory footprint.
+    //
+    // TODO: migrate this function into c++
+    var bytesSinceGC = 0;
+
+    while (this.hasNext()) {
+        num++;
+        var nextDoc = this.next();
+        bytesSinceGC += Object.bsonsize(nextDoc);
+
+        // Garbage collect every 10 MB.
+        if (bytesSinceGC > (10 * 1024 * 1024)) {
+            bytesSinceGC = 0;
+            gc();
+        }
+    }
+    return num;
+},
+	"shellPrint" : function() {
+    try {
+        var start = new Date().getTime();
+        var n = 0;
+        while (this.hasNext() && n < DBQuery.shellBatchSize) {
+            var s = this._prettyShell ? tojson(this.next()) : tojson(this.next(), "", true);
+            print(s);
+            n++;
+        }
+        if (typeof _verboseShell !== 'undefined' && _verboseShell) {
+            var time = new Date().getTime() - start;
+            print("Fetched " + n + " record(s) in " + time + "ms");
+        }
+        if (this.hasNext()) {
+            print("Type \"it\" for more");
+            ___it___ = this;
+        } else {
+            ___it___ = null;
+        }
+    } catch (e) {
+        print(e);
+    }
+},
+	"pretty" : function() {
+    this._prettyShell = true;
+    return this;
+}
+}
